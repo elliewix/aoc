@@ -1,8 +1,6 @@
 # In a valid triangle, the sum of any two sides must be larger than the remaining side.
 # For example, the "triangle" given above is impossible, because 5 + 10 is not larger than 25
 
-import itertools
-
 with open('triangles.txt', 'rt') as fin:
     tris = [list(map(int, l.split())) for l in fin.readlines()]
 

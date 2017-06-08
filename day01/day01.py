@@ -40,7 +40,7 @@ for step in steps:
 	# 	t.left(90)
 	# elif turn == "R":
 	# 	t.right(90)
-
+    #
 	new_direction = directions[current_direction][turn]
 	print(step, current_direction, new_direction)
 	current_direction = new_direction
